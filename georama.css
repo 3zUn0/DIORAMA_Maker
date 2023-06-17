@@ -1,0 +1,28 @@
+td {
+  border-style: solid;
+  border-color: black;
+}
+.grid-container {
+	display: grid;
+  grid-auto-flow: column;
+	grid-template-rows:repeat(11, 100px);
+  grid-template-columns:repeat(8,100px);
+}
+
+/* わかりやすいように色分け */
+.grid-item:nth-child(2n) {
+	background-color: #d3d3d3;
+}
+.grid-item:nth-child(2n+1) {
+	background-color: #f5f5f5;
+}
+
+.palette {
+  display: grid;
+  grid-template-rows:repeat(3,100px);
+  grid-template-columns:repeat(6,100px);
+}
+
+.palette-item {
+  
+}
