@@ -5,8 +5,8 @@ td {
 .grid-container {
 	display: grid;
   grid-auto-flow: column;
-	grid-template-rows:repeat(11, 100px);
-  grid-template-columns:repeat(8,100px);
+	grid-template-rows:repeat(11, 60px);
+  grid-template-columns:repeat(8,60px);
 }
 
 /* わかりやすいように色分け */
@@ -19,8 +19,8 @@ td {
 
 .palette {
   display: grid;
-  grid-template-rows:repeat(3,100px);
-  grid-template-columns:repeat(6,100px);
+  grid-template-rows:repeat(2,60px);
+  grid-template-columns:repeat(6,60px);
 }
 
 .palette-item {
