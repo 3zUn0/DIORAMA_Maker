@@ -32,6 +32,7 @@ td {
   position: absolute;
   border: 5px solid transparent;
   box-sizing: border-box;
+  border-color: red;
 }
 
 .palette-item.selected input{
