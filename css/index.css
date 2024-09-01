@@ -9,6 +9,11 @@ td {
   grid-template-columns:repeat(8,60px);
 }
 
+.grid-item {
+	position: relative;
+	cursor: pointer;
+}
+
 /* わかりやすいように色分け */
 .grid-item:nth-child(2n) {
 	background-color: #d3d3d3;
@@ -23,6 +28,12 @@ td {
   grid-template-columns:repeat(6,60px);
 }
 
-.palette-item {
-  
+.palette-item input {
+  position: absolute;
+  border: 5px solid transparent;
+  box-sizing: border-box;
+}
+
+.palette-item.selected input{
+  border-color: red;
 }
