@@ -28,6 +28,12 @@ td {
   grid-template-columns:repeat(6,60px);
 }
 
-.palette-item {
-  
+.palette-item input {
+  position: absolute;
+  border: 5px solid transparent;
+  box-sizing: border-box;
+}
+
+.palette-item.selected input{
+  border-color: red;
 }
