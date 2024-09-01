@@ -9,6 +9,11 @@ td {
   grid-template-columns:repeat(8,60px);
 }
 
+.grid-item {
+	position: relative;
+	cursor: pointer;
+}
+
 /* わかりやすいように色分け */
 .grid-item:nth-child(2n) {
 	background-color: #d3d3d3;
